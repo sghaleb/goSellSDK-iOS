@@ -238,11 +238,11 @@ extension Charge: Encodable {
 		try container.encode(cardType?.description, forKey: .cardType)
 
 		// Hidden
-		try container.encode("", forKey: .paymentOptionIdentifier)
-		try container.encode(Currency(isoCode: "KWD"), forKey: .currency)
-		try container.encode("", forKey: .scheme)
-		try container.encode([Currency(isoCode: "KWD")], forKey: .supportedCurrencies)
-		try container.encode(0, forKey: .orderBy)
+		try container.encode(paymentOptionIdentifier, forKey: .paymentOptionIdentifier)
+		try container.encode(currency, forKey: .currency)
+		try container.encode(scheme, forKey: .scheme)
+		try container.encode(suppoertedCurrencies, forKey: .supportedCurrencies)
+		try container.encode(orderBy, forKey: .orderBy)
     	}
 }
 

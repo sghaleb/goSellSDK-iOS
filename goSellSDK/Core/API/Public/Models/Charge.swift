@@ -221,6 +221,31 @@ extension Charge: Decodable {
     }
 }
 
+extension Charge: Encodable {
+	public func encode(to encoder: Encoder) throws {
+		var container = encoder.container(keyedBy: CodingKeys.self)
+
+		try container.encode(identifier, forKey: .identifier)
+		try container.encode(object, forKey: .object)
+		try container.encode(lastFourDigits, forKey: .lastFourDigits)
+		try container.encode(0, forKey: .expiry)
+		try container.encode(brand, forKey: .brand)
+		try container.encode(fingerprint, forKey: .fingerprint)
+		try container.encode(cardholderName, forKey: .cardholderName)
+		try container.encode(firstSixDigits, forKey: .firstSixDigits)
+		try container.encode(expirationMonth, forKey: .expirationMonth)
+		try container.encode(expirationYear, forKey: .expirationYear)
+		try container.encode(cardType?.description, forKey: .cardType)
+
+		// Hidden
+		try container.encode("", forKey: .paymentOptionIdentifier)
+		try container.encode(Currency(isoCode: "KWD"), forKey: .currency)
+		try container.encode("", forKey: .scheme)
+		try container.encode([Currency(isoCode: "KWD")], forKey: .supportedCurrencies)
+		try container.encode(0, forKey: .orderBy)
+    	}
+}
+
 // MARK: - Authenticatable
 extension Charge: Authenticatable {
     

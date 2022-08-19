@@ -3,7 +3,7 @@ Pod::Spec.new do |goSellSDK|
     goSellSDK.platform              = :ios
     goSellSDK.ios.deployment_target = '11.0'
 	goSellSDK.swift_versions        = ['4.0', '4.2', '5.0']
-    goSellSDK.name                  = 'goSellSDK'
+    goSellSDK.name                  = 'goSellSDK-sghaleb'
     goSellSDK.summary               = 'goSell SDK for iOS'
     goSellSDK.requires_arc          = true
     goSellSDK.version               = '2.3.13'

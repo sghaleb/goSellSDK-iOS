@@ -9,8 +9,8 @@ Pod::Spec.new do |goSellSDK|
     goSellSDK.version               = '2.3.13'
     goSellSDK.license               = { :type => 'MIT', :file => 'LICENSE' }
     goSellSDK.author                = { 'Tap Payments' => 'hello@tap.company' }
-    goSellSDK.homepage              = 'https://github.com/Tap-Payments/goSellSDK-iOS'
-    goSellSDK.source                = { :git => 'https://github.com/Tap-Payments/goSellSDK-iOS.git', :tag => goSellSDK.version.to_s }
+    goSellSDK.homepage              = 'https://github.com/sghaleb/goSellSDK-iOS'
+    goSellSDK.source                = { :git => 'https://github.com/sghaleb/goSellSDK-iOS.git', :tag => goSellSDK.version.to_s }
 
 
     goSellSDK.pod_target_xcconfig = {

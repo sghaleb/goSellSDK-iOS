@@ -128,6 +128,10 @@
 		14FC5D5E2242E47700930204 /* AddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC5D5C2242E47700930204 /* AddressType.swift */; };
 		14FC5D612242E4CB00930204 /* Equatable+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC5D5F2242E4CB00930204 /* Equatable+Additions.swift */; };
 		14FC5D622242E4CB00930204 /* Comparable+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC5D602242E4CB00930204 /* Comparable+Additions.swift */; };
+		3621E80628B0FD890050A3FF /* TopUpApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621E80528B0FD890050A3FF /* TopUpApplication.swift */; };
+		3621E80828B0FDC70050A3FF /* TopupChargeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621E80728B0FDC70050A3FF /* TopupChargeModel.swift */; };
+		36F494F728B0F41A008546F1 /* TopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F494F628B0F41A008546F1 /* TopUp.swift */; };
+		36F494F928B0F461008546F1 /* UIModeDisplayEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F494F828B0F461008546F1 /* UIModeDisplayEnum.swift */; };
 		46624B524CC48A2E4DD46449 /* Pods_goSellSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48434EACAB5964D7D7C9EBCD /* Pods_goSellSDK.framework */; };
 		A401FC7E2100FE8B002DBA73 /* InteractiveTransitionControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401FC7C2100FE8B002DBA73 /* InteractiveTransitionControllerDelegate.swift */; };
 		A401FC802100FE8B002DBA73 /* PopupOverlaySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401FC7D2100FE8B002DBA73 /* PopupOverlaySupport.swift */; };
@@ -558,6 +562,10 @@
 		14FC5D5F2242E4CB00930204 /* Equatable+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Equatable+Additions.swift"; sourceTree = "<group>"; };
 		14FC5D602242E4CB00930204 /* Comparable+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Comparable+Additions.swift"; sourceTree = "<group>"; };
 		16A38A8831C7BCCD73B43B9E /* Pods-goSellSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goSellSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-goSellSDK/Pods-goSellSDK.release.xcconfig"; sourceTree = "<group>"; };
+		3621E80528B0FD890050A3FF /* TopUpApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopUpApplication.swift; sourceTree = "<group>"; };
+		3621E80728B0FDC70050A3FF /* TopupChargeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopupChargeModel.swift; sourceTree = "<group>"; };
+		36F494F628B0F41A008546F1 /* TopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopUp.swift; sourceTree = "<group>"; };
+		36F494F828B0F461008546F1 /* UIModeDisplayEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIModeDisplayEnum.swift; sourceTree = "<group>"; };
 		48434EACAB5964D7D7C9EBCD /* Pods_goSellSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goSellSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A401FC7C2100FE8B002DBA73 /* InteractiveTransitionControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveTransitionControllerDelegate.swift; sourceTree = "<group>"; };
 		A401FC7D2100FE8B002DBA73 /* PopupOverlaySupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupOverlaySupport.swift; sourceTree = "<group>"; };
@@ -1009,6 +1017,7 @@
 				14FC5D5B2242E47700930204 /* TokenType.swift */,
 				A4B3FB7F212467B3000C05EB /* TransactionMode.swift */,
 				D70054A323A11AE600D15A4C /* PaymentType.swift */,
+				36F494F828B0F461008546F1 /* UIModeDisplayEnum.swift */,
 				A4694B27211B481900B335F1 /* URLStatus.swift */,
 				A4F7101920B550450064FE4B /* Measurements */,
 			);
@@ -1048,11 +1057,13 @@
 				A408C05C20BC058A005E74AD /* Tax.swift */,
 				14FC5D532242E44E00930204 /* Token.swift */,
 				14FC5D542242E44E00930204 /* TokenizedCard.swift */,
+				36F494F628B0F41A008546F1 /* TopUp.swift */,
+				3621E80528B0FD890050A3FF /* TopUpApplication.swift */,
 				A4694B22211B480600B335F1 /* TrackingURL.swift */,
 				A4A9827E20D2B31F00770690 /* TransactionDetails.swift */,
-				14A8428B2243B1B80026CC16 /* Transfer.swift */,
 				E82A208B23EC28BF00F152C5 /* TransactionExpiry.swift */,
 				E82A208D23EC3DC900F152C5 /* TransactionOrder.swift */,
+				14A8428B2243B1B80026CC16 /* Transfer.swift */,
 				147951CC22004DBE0073B49F /* Errors */,
 			);
 			path = Models;
@@ -1458,6 +1469,7 @@
 				A4D5311B208A4E4400830AD8 /* PaymentOptionsResponse.swift */,
 				A4B6E43620860AEA00078072 /* SDKSettings.swift */,
 				A4B6E43A20860BFC00078072 /* SDKSettingsData.swift */,
+				3621E80728B0FDC70050A3FF /* TopupChargeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1963,6 +1975,7 @@
 				A4BD8D4920A1F6AE00EFF2CE /* UIFont+Additions.swift in Sources */,
 				A4A9828920D2B32000770690 /* Response.swift in Sources */,
 				A424877920E4F0D8001C4FAF /* TapButton.swift in Sources */,
+				3621E80628B0FD890050A3FF /* TopUpApplication.swift in Sources */,
 				A4F7102D20B550760064FE4B /* TextLabelInputDataValidation.swift in Sources */,
 				14128482215CD83C00C2873E /* UITextField+Additions.swift in Sources */,
 				A4694B23211B480600B335F1 /* TrackingURL.swift in Sources */,
@@ -2010,6 +2023,7 @@
 				A42487A520E4F41C001C4FAF /* BaseCollectionViewCell.swift in Sources */,
 				A479F7232099DB2100556E10 /* Merchant.swift in Sources */,
 				1432428421F9FB14003B5E5D /* ProcessHandlerInterface.swift in Sources */,
+				36F494F928B0F461008546F1 /* UIModeDisplayEnum.swift in Sources */,
 				14690B142155DF330033C562 /* SecretKey.swift in Sources */,
 				A424877720E4F0D8001C4FAF /* TapButtonDelegate.swift in Sources */,
 				A4752A3D208EFF5C003118DB /* GroupTableViewCell.swift in Sources */,
@@ -2094,6 +2108,7 @@
 				A4B3FB85212467B4000C05EB /* AuthorizeActionStatus.swift in Sources */,
 				A4B3FB9B21246809000C05EB /* APIClient+Retrievable.swift in Sources */,
 				A408C06120BC058A005E74AD /* SavedCard.swift in Sources */,
+				3621E80828B0FDC70050A3FF /* TopupChargeModel.swift in Sources */,
 				A4F7106720B5542C0064FE4B /* ProportionalToOrigin.swift in Sources */,
 				A447EAFD2110524500099C07 /* MaskedWindow.swift in Sources */,
 				A4571EFF20FE2367006D96DC /* String+Additions.swift in Sources */,
@@ -2182,6 +2197,7 @@
 				E82B006423C4BC2900FE0D05 /* ApplePayTableViewCell.swift in Sources */,
 				A4A4D5F62108D2590063488E /* PaymentStatus.swift in Sources */,
 				A4A9828520D2B32000770690 /* CreateTokenCard.swift in Sources */,
+				36F494F728B0F41A008546F1 /* TopUp.swift in Sources */,
 				A479F7252099DB2100556E10 /* PaymentItem.swift in Sources */,
 				A408C06720BC05B9005E74AD /* InitializableWithString.swift in Sources */,
 				A482F7662085DB1300AA76A4 /* TapSDKUnknownError.swift in Sources */,
@@ -2411,7 +2427,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
@@ -2509,7 +2525,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -2538,14 +2554,14 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = G46S76PUH4;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = goSellSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2569,14 +2585,14 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = G46S76PUH4;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = goSellSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

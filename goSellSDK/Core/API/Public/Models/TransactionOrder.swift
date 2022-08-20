@@ -53,4 +53,16 @@ extension TransactionOrder: Decodable {
     }
 }
 
+// MARK: - Encodable
+extension TransactionOrder: Encodable {
+	
+	public func encode(to encoder: Encoder) throws {
+		var container = encoder.container(keyedBy: CodingKeys.self)
+		
+		try container.encode(reference, forKey: .reference)
+		try container.encode(storeUrl, forKey: .storeUrl)
+	}
+}
+
+
 

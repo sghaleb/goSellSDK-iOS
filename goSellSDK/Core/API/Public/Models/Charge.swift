@@ -226,24 +226,31 @@ extension Charge: Encodable {
 		var container = encoder.container(keyedBy: CodingKeys.self)
 
 		try container.encode(identifier, forKey: .identifier)
-		try container.encode(object, forKey: .object)
-		try container.encode(lastFourDigits, forKey: .lastFourDigits)
-		try container.encode(0, forKey: .expiry)
-		try container.encode(brand, forKey: .brand)
-		try container.encode(fingerprint, forKey: .fingerprint)
-		try container.encode(cardholderName, forKey: .cardholderName)
-		try container.encode(firstSixDigits, forKey: .firstSixDigits)
-		try container.encode(expirationMonth, forKey: .expirationMonth)
-		try container.encode(expirationYear, forKey: .expirationYear)
-		try container.encode(cardType?.description, forKey: .cardType)
-
-		// Hidden
-		try container.encode(paymentOptionIdentifier, forKey: .paymentOptionIdentifier)
+		try container.encode(apiVersion, forKey: .apiVersion)
+		try container.encode(amount, forKey: .amount)
 		try container.encode(currency, forKey: .currency)
-		try container.encode(scheme, forKey: .scheme)
-		try container.encode(suppoertedCurrencies, forKey: .supportedCurrencies)
-		try container.encode(orderBy, forKey: .orderBy)
-    	}
+		try container.encode(customer, forKey: .customer)
+		try container.encode(isLiveMode, forKey: .isLiveMode)
+		try container.encode(cardSaved, forKey: .cardSaved)
+		try container.encode(object, forKey: .object)
+		try container.encode(authentication, forKey: .authentication)
+		try container.encode(redirect, forKey: .redirect)
+		try container.encode(post, forKey: .post)
+		try container.encode(card, forKey: .card)
+		try container.encode(source, forKey: .source)
+		try container.encode(destinations, forKey: .destinations)
+		try container.encode(status.rawValue, forKey: .status)
+		try container.encode(requires3DSecure, forKey: .requires3DSecure)
+		try container.encode(transactionDetails, forKey: .transactionDetails)
+		try container.encode(descriptionText, forKey: .descriptionText)
+		try container.encode(metadata, forKey: .metadata)
+		try container.encode(reference, forKey: .reference)
+		try container.encode(receiptSettings, forKey: .receiptSettings)
+		try container.encode(acquirer, forKey: .acquirer)
+		try container.encode(response, forKey: .response)
+		try container.encode(topup, forKey: .topup)
+		try container.encode(statementDescriptor, forKey: .statementDescriptor)
+	}
 }
 
 // MARK: - Authenticatable

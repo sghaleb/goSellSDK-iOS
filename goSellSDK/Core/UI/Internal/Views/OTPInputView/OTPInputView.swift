@@ -5,7 +5,9 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
-import CoreGraphics
+import Foundation
+import UIKit
+//import CoreGraphics
 import struct   TapAdditionsKitV2.TypeAlias
 import class    TapEditableViewV2.TapEditableView
 import class    TapNibViewV2.TapNibView

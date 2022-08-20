@@ -121,3 +121,24 @@ extension Authentication: Decodable {
                   value: value)
     }
 }
+
+// MARK: - Encodable
+extension Authentication: Encodable {
+ 
+ public func encode(to encoder: Encoder) throws {
+	 var container = encoder.container(keyedBy: CodingKeys.self)
+	 
+	 try container.encode(identifier, forKey: .identifier)
+	 try container.encode(object, forKey: .object)
+	 try container.encode(type, forKey: .type)
+	 try container.encode(requirer.rawValue, forKey: .requirer)
+	 try container.encode(status.rawValue, forKey: .status)
+	 try container.encode(retryAttemptsCount, forKey: .retryAttemptsCount)
+	 try container.encode(url, forKey: .url)
+	 try container.encode(creationDate, forKey: .creationDate)
+	 try container.encode(authenticationDate, forKey: .authenticationDate)
+	 try container.encode(count, forKey: .count)
+	 try container.encode(value, forKey: .value)
+ }
+}
+

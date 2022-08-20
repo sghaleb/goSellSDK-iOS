@@ -49,3 +49,14 @@ extension Response: Decodable {
         self.init(code: code, message: message)
     }
 }
+
+// MARK: - Encodable
+extension Response: Encodable {
+	
+	public func encode(to encoder: Encoder) throws {
+		var container = encoder.container(keyedBy: CodingKeys.self)
+		
+		try container.encode(code, forKey: .code)
+		try container.encode(message, forKey: .message)
+	}
+}

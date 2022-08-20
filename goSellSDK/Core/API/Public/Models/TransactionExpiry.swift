@@ -53,4 +53,14 @@ extension TransactionExpiry: Decodable {
     }
 }
 
+// MARK: - Encodable
+extension TransactionExpiry: Encodable {
+	
+	public func encode(to encoder: Encoder) throws {
+		var container = encoder.container(keyedBy: CodingKeys.self)
+		
+		try container.encode(type, forKey: .type)
+		try container.encode(period, forKey: .period)
+	}
+}
 

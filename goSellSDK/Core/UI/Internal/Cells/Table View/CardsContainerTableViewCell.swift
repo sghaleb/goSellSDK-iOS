@@ -5,6 +5,9 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
+import UIKit
+
 import class    UIKit.UICollectionView.UICollectionView
 
 internal class CardsContainerTableViewCell: BaseTableViewCell {

@@ -578,7 +578,7 @@
 		A40DBCA22088C031005B170B /* PaymentOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentOptionsViewController.swift; sourceTree = "<group>"; };
 		A40F5FCF2085E73A001D6A9A /* SecureEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureEncodable.swift; sourceTree = "<group>"; };
 		A40F5FD32085F27D001D6A9A /* APIClient+Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+Initialization.swift"; sourceTree = "<group>"; };
-		A4118B82203AD845003415C2 /* goSellSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = goSellSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4118B82203AD845003415C2 /* goSellSDK-sghaleb.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "goSellSDK-sghaleb.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A413DB1820AEE04000C29C6B /* CardValidatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardValidatorDelegate.swift; sourceTree = "<group>"; };
 		A413DB1920AEE04000C29C6B /* DataValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataValidation.swift; sourceTree = "<group>"; };
 		A413DB1A20AEE04000C29C6B /* CardBrandChangeReporting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardBrandChangeReporting.swift; sourceTree = "<group>"; };
@@ -1265,7 +1265,7 @@
 		A40D320C2031E6DE0030FDDE = {
 			isa = PBXGroup;
 			children = (
-				A4118B82203AD845003415C2 /* goSellSDK.podspec */,
+				A4118B82203AD845003415C2 /* goSellSDK-sghaleb.podspec */,
 				A40D32182031E6DE0030FDDE /* goSellSDK */,
 				67C9033215A5F155FB89B897 /* Pods */,
 				A40D32172031E6DE0030FDDE /* Products */,

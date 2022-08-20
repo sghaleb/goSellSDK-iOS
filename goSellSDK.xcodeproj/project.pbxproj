@@ -1812,9 +1812,9 @@
 			buildConfigurationList = A40D322A2031E6DE0030FDDE /* Build configuration list for PBXNativeTarget "goSellSDK" */;
 			buildPhases = (
 				EAE64C280CF7B3D5EA90A459 /* [CP] Check Pods Manifest.lock */,
+				A40D32132031E6DE0030FDDE /* Headers */,
 				A40D32112031E6DE0030FDDE /* Sources */,
 				A40D32122031E6DE0030FDDE /* Frameworks */,
-				A40D32132031E6DE0030FDDE /* Headers */,
 				A40D32142031E6DE0030FDDE /* Resources */,
 			);
 			buildRules = (

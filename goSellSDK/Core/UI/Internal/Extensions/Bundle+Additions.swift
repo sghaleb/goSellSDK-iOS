@@ -19,7 +19,7 @@ internal extension Bundle {
     
     private struct Constants {
         
-        fileprivate static let goSellSDKResourcesBundleName = "goSellSDKResources"
+        fileprivate static let goSellSDKResourcesBundleName = "goSellSDK_sghalebResources"
         
         //@available(*, unavailable) private init() { }
     }

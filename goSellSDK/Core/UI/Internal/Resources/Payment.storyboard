@@ -44,7 +44,7 @@
         <!--Payment Content View Controller-->
         <scene sceneID="dnA-gb-3IH">
             <objects>
-                <viewController id="3RY-Jo-7bx" customClass="PaymentContentViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController id="3RY-Jo-7bx" customClass="PaymentContentViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0hf-mb-iOV"/>
                         <viewControllerLayoutGuide type="bottom" id="L0E-Nd-yE1"/>
@@ -1207,7 +1207,7 @@
         <!--Address Input View Controller-->
         <scene sceneID="DQx-BL-CFr">
             <objects>
-                <viewController id="BoK-ZE-FKj" customClass="AddressInputViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController id="BoK-ZE-FKj" customClass="AddressInputViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UfW-6G-3Vh"/>
                         <viewControllerLayoutGuide type="bottom" id="ic4-0k-AyT"/>
@@ -1406,7 +1406,7 @@
         <!--Country Selection View Controller-->
         <scene sceneID="HhE-rg-YhG">
             <objects>
-                <viewController id="wYe-au-w3j" customClass="CountrySelectionViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController id="wYe-au-w3j" customClass="CountrySelectionViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zx1-TG-sVZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Dnb-nE-to0"/>
@@ -1527,7 +1527,7 @@
         <!--Currency Selection View Controller-->
         <scene sceneID="mvA-db-B24">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="sHo-Rf-yPg" customClass="CurrencySelectionViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="sHo-Rf-yPg" customClass="CurrencySelectionViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WKE-Op-cCz"/>
                         <viewControllerLayoutGuide type="bottom" id="PP4-1A-r0F"/>
@@ -1669,7 +1669,7 @@
         <!--Resizable Payment Container View Controller-->
         <scene sceneID="U0d-xm-aa9">
             <objects>
-                <viewController modalPresentationStyle="overFullScreen" id="qgJ-8J-Z5T" customClass="ResizablePaymentContainerViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overFullScreen" id="qgJ-8J-Z5T" customClass="ResizablePaymentContainerViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sl0-zJ-HQI"/>
                         <viewControllerLayoutGuide type="bottom" id="XZq-Rr-YiB"/>
@@ -1725,7 +1725,7 @@
         <!--Base Navigation Controller-->
         <scene sceneID="4vL-di-S09">
             <objects>
-                <navigationController definesPresentationContext="YES" modalPresentationStyle="overCurrentContext" navigationBarHidden="YES" id="V7x-AH-OD3" customClass="BaseNavigationController" customModule="goSellSDK" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" modalPresentationStyle="overCurrentContext" navigationBarHidden="YES" id="V7x-AH-OD3" customClass="BaseNavigationController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Y4-6z-yxo">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1740,7 +1740,7 @@
         <!--Card Scanner View Controller-->
         <scene sceneID="GwU-yV-lsw">
             <objects>
-                <viewController id="0Dn-DZ-WvX" customClass="CardScannerViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController id="0Dn-DZ-WvX" customClass="CardScannerViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3cP-JY-oW1"/>
                         <viewControllerLayoutGuide type="bottom" id="5fc-OZ-iIR"/>
@@ -1782,7 +1782,7 @@
         <!--Web Payment View Controller-->
         <scene sceneID="v34-Ns-eGR">
             <objects>
-                <viewController storyboardIdentifier="WebPaymentViewController" id="vWe-pD-xt1" customClass="WebPaymentViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WebPaymentViewController" id="vWe-pD-xt1" customClass="WebPaymentViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tMf-mL-ha7"/>
                         <viewControllerLayoutGuide type="bottom" id="CKf-50-3tm"/>
@@ -1827,7 +1827,7 @@
         <!--Web Payment Popup View Controller-->
         <scene sceneID="uMp-6A-EbA">
             <objects>
-                <viewController storyboardIdentifier="WebPaymentPopupViewController" id="dLe-BW-Uds" customClass="WebPaymentPopupViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WebPaymentPopupViewController" id="dLe-BW-Uds" customClass="WebPaymentPopupViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cJx-vO-bdi"/>
                         <viewControllerLayoutGuide type="bottom" id="1FN-P4-9K9"/>
@@ -1896,7 +1896,7 @@
         <!--View Controller-->
         <scene sceneID="OfH-rd-fz4">
             <objects>
-                <viewController storyboardIdentifier="OTPViewController" id="tt4-t7-RYj" customClass="OTPViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OTPViewController" id="tt4-t7-RYj" customClass="OTPViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eyS-Ux-Y85"/>
                         <viewControllerLayoutGuide type="bottom" id="bah-iY-pRf"/>
@@ -2126,17 +2126,17 @@
         <!--Web Payment Content View Controller-->
         <scene sceneID="2Ex-hr-r6l">
             <objects>
-                <viewController id="rmA-J8-h48" customClass="WebPaymentContentViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController id="rmA-J8-h48" customClass="WebPaymentContentViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VCI-Gg-aBq"/>
                         <viewControllerLayoutGuide type="bottom" id="bfl-8B-89Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2a3-ZM-oMY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fdd-4D-BEt">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jhb-xZ-fUC" customClass="WebViewProgressBar" customModule="goSellSDK">
@@ -2176,7 +2176,7 @@
         <!--Setup Apple Pay View Controller-->
         <scene sceneID="SeE-tC-NTD">
             <objects>
-                <viewController storyboardIdentifier="SetupApplePayViewController" id="4c4-RH-WPa" customClass="SetupApplePayViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetupApplePayViewController" id="4c4-RH-WPa" customClass="SetupApplePayViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bpt-dO-xP2"/>
                         <viewControllerLayoutGuide type="bottom" id="DvI-rU-nya"/>
@@ -2266,7 +2266,7 @@
         <!--Async Response View Controller-->
         <scene sceneID="9tO-Br-WDw">
             <objects>
-                <viewController storyboardIdentifier="AsyncResponseViewController" id="GLP-8j-cUp" customClass="AsyncResponseViewController" customModule="goSellSDK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AsyncResponseViewController" id="GLP-8j-cUp" customClass="AsyncResponseViewController" customModule="goSellSDK" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="478-Ia-YMI"/>
                         <viewControllerLayoutGuide type="bottom" id="3OY-O1-470"/>
@@ -2508,7 +2508,7 @@ with your Fawry Pay Reference</string>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="rU0-K6-wi7"/>
+        <segue reference="06D-E8-sJc"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ApplePayMark" width="76" height="50"/>

@@ -3,10 +3,10 @@ Pod::Spec.new do |goSellSDK|
     goSellSDK.platform              = :ios
     goSellSDK.ios.deployment_target = '12.0'
 	goSellSDK.swift_versions        = ['4.0', '4.2', '5.0']
-    goSellSDK.name                  = 'goSellSDK-sghaleb'
+    goSellSDK.name                  = 'goSellSDK2'
     goSellSDK.summary               = 'goSell SDK for iOS'
     goSellSDK.requires_arc          = true
-    goSellSDK.version               = '2.3.20'
+    goSellSDK.version               = '2.4'
     goSellSDK.license               = { :type => 'MIT', :file => 'LICENSE' }
     goSellSDK.author                = { 'Tap Payments' => 'hello@tap.company' }
     goSellSDK.homepage              = 'https://github.com/sghaleb/goSellSDK-iOS'
@@ -23,7 +23,7 @@ Pod::Spec.new do |goSellSDK|
 	goSellSDK.subspec 'Core' do |core|
 		
 		core.source_files			= 'goSellSDK/Core/**/*.{swift}'
-		core.ios.resource_bundle	= { 'goSellSDK_sghalebResources' => ['goSellSDK/Core/UI/Internal/Resources/*.{xcassets,storyboard,xib,json}', 'goSellSDK/Core/UI/Internal/Resources/Localization/*.lproj'] }
+		core.ios.resource_bundle	= { 'goSellSDK2Resources' => ['goSellSDK/Core/UI/Internal/Resources/*.{xcassets,storyboard,xib,json}', 'goSellSDK/Core/UI/Internal/Resources/Localization/*.lproj'] }
 		
 		core.dependency 'CardIODynamic'
 		core.dependency 'EditableTextInsetsTextFieldV2'

@@ -1,12 +1,12 @@
 Pod::Spec.new do |goSellSDK|
     
     goSellSDK.platform              = :ios
-    goSellSDK.ios.deployment_target = '12.0'
+    goSellSDK.ios.deployment_target = '11.0'
 	goSellSDK.swift_versions        = ['4.0', '4.2', '5.0']
     goSellSDK.name                  = 'goSellSDK2'
     goSellSDK.summary               = 'goSell SDK for iOS'
     goSellSDK.requires_arc          = true
-    goSellSDK.version               = '2.4.1'
+    goSellSDK.version               = '2.4.2'
     goSellSDK.license               = { :type => 'MIT', :file => 'LICENSE' }
     goSellSDK.author                = { 'Tap Payments' => 'hello@tap.company' }
     goSellSDK.homepage              = 'https://github.com/sghaleb/goSellSDK-iOS'

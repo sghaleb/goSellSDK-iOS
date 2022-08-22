@@ -1,4 +1,4 @@
-platform :ios, '11.0'
+platform :ios, '12.0'
 use_frameworks!
 
 source 'https://github.com/CocoaPods/Specs.git'
@@ -8,8 +8,8 @@ target 'goSellSDKExample' do
     pod 'Crashlytics'
     pod 'Fabric'
     
-    pod 'goSellSDK', :path => '../'
-#	pod 'goSellSDK/ErrorReporting', :path => '../'
+    pod 'goSellSDK2', :path => '../'
+#	pod 'goSellSDK2/ErrorReporting', :path => '../'
 
 end
 

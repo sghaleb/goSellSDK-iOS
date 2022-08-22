@@ -5,7 +5,8 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
-import class	goSellSDK.Destination
+
+import class	goSellSDK2.Destination
 
 internal protocol DestinationViewControllerDelegate: class {
 	

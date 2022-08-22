@@ -5,9 +5,9 @@ PODS:
   - EditableTextInsetsTextFieldV2 (0.0.2):
     - TapAdditionsKitV2
   - Fabric (1.10.2)
-  - goSellSDK (2.3.8):
-    - goSellSDK/Core (= 2.3.8)
-  - goSellSDK/Core (2.3.8):
+  - goSellSDK2 (2.4.1):
+    - goSellSDK2/Core (= 2.4.1)
+  - goSellSDK2/Core (2.4.1):
     - CardIODynamic
     - EditableTextInsetsTextFieldV2
     - SwiftyRSA
@@ -32,7 +32,7 @@ PODS:
   - TapApplicationV2 (0.0.2):
     - TapAdditionsKitV2
   - TapBundleLocalization (1.0.3)
-  - TapCardVlidatorKit-iOS (1.0.15)
+  - TapCardVlidatorKit-iOS (1.0.17)
   - TapEditableViewV2 (1.0.1):
     - TapAdditionsKitV2
   - TapFontsKitV2 (0.0.4):
@@ -64,7 +64,7 @@ PODS:
 DEPENDENCIES:
   - Crashlytics
   - Fabric
-  - goSellSDK (from `../`)
+  - goSellSDK2 (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -89,7 +89,7 @@ SPEC REPOS:
     - TapVisualEffectViewV2
 
 EXTERNAL SOURCES:
-  goSellSDK:
+  goSellSDK2:
     :path: "../"
 
 SPEC CHECKSUMS:
@@ -97,12 +97,12 @@ SPEC CHECKSUMS:
   Crashlytics: 9220f5bc89e7a618df411b4f639389dbfb0e03d2
   EditableTextInsetsTextFieldV2: 09a945c086dbcef688fe4fbb8302b408c146c391
   Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
-  goSellSDK: ab4650047b04df5cb39f58f2559c69b6098b7d0a
+  goSellSDK2: 745be624b64f972eb8259391bad6df61c94d7a9d
   SwiftyRSA: 8c6dd1ea7db1b8dc4fb517a202f88bb1354bc2c6
   TapAdditionsKitV2: ba369802e9575c3475ce6d5af228cf60c68edfc9
   TapApplicationV2: aee3d046c4272778431e1535de6cab34e1269f8c
   TapBundleLocalization: c7d7c14850223b0ef447aca1269d7308f78d54f9
-  TapCardVlidatorKit-iOS: 3cf41059e6496f02ca1c2a78a8cd000d3643cd13
+  TapCardVlidatorKit-iOS: 42c357a5dab0c372f22a49827bfb16d03ce50c5d
   TapEditableViewV2: 00370b2b6c967c382fa944be8c04156d584d630b
   TapFontsKitV2: b05e5ed03fc182c227f0660a0b318f44934d353c
   TapGLKitV2: d3ef8bc5d1655a1d46e1696cfdcf19ae6e6d4d35
@@ -114,6 +114,6 @@ SPEC CHECKSUMS:
   TapSwiftFixesV2: a8623a7273c6790b9754ec7e272e96fce7d3a800
   TapVisualEffectViewV2: b612ffee4d05004c449d433fe45aba9563c8a508
 
-PODFILE CHECKSUM: dc0834a994af3dbfe06d4ef3464a15f4e92d9471
+PODFILE CHECKSUM: 1abc418ad6f611230ece2bb145b5b4598c6a616d
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

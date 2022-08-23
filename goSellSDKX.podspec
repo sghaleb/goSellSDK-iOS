@@ -6,7 +6,7 @@ Pod::Spec.new do |goSellSDK|
     goSellSDK.name                  = 'goSellSDKX'
     goSellSDK.summary               = 'goSell SDK for iOS'
     goSellSDK.requires_arc          = true
-    goSellSDK.version               = '2.4.3'
+    goSellSDK.version               = '2.4.4'
     goSellSDK.license               = { :type => 'MIT', :file => 'LICENSE' }
     goSellSDK.author                = { 'Tap Payments' => 'hello@tap.company' }
     goSellSDK.homepage              = 'https://github.com/sghaleb/goSellSDK-iOS'
@@ -44,13 +44,14 @@ Pod::Spec.new do |goSellSDK|
 		
 	end
 	
-	goSellSDK.subspec 'ErrorReporting' do |errorReporting|
+#	goSellSDK.subspec 'ErrorReporting' do |errorReporting|
 		
-		errorReporting.source_files			= 'goSellSDK/ErrorReporting/**/*.{swift}'
-		errorReporting.pod_target_xcconfig	= { 'SWIFT_ACTIVE_COMPILATION_CONDITIONS' => '$(inherited) GOSELLSDK_ERROR_REPORTING_AVAILABLE' }
+#		errorReporting.source_files			= 'goSellSDK/ErrorReporting/**/*.{swift}'
+#		errorReporting.pod_target_xcconfig	= { 'SWIFT_ACTIVE_COMPILATION_CONDITIONS' => '$(inherited) 
+GOSELLSDK_ERROR_REPORTING_AVAILABLE' }
 		
-		errorReporting.dependency	'goSellSDK/Core'
-		errorReporting.dependency	'TapErrorReportingV2'
+#		errorReporting.dependency	'goSellSDK/Core'
+#		errorReporting.dependency	'TapErrorReportingV2'
 		
-	end
+#	end
 end

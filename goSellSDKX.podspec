@@ -48,7 +48,7 @@ Pod::Spec.new do |goSellSDK|
 		
 #		errorReporting.source_files			= 'goSellSDK/ErrorReporting/**/*.{swift}'
 #		errorReporting.pod_target_xcconfig	= { 'SWIFT_ACTIVE_COMPILATION_CONDITIONS' => '$(inherited) 
-GOSELLSDK_ERROR_REPORTING_AVAILABLE' }
+#GOSELLSDK_ERROR_REPORTING_AVAILABLE' }
 		
 #		errorReporting.dependency	'goSellSDK/Core'
 #		errorReporting.dependency	'TapErrorReportingV2'

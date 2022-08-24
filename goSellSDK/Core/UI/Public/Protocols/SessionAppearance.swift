@@ -12,7 +12,7 @@ import class	UIKit.UIFont.UIFont
 import struct	UIKit.UIGeometry.UIEdgeInsets
 
 /// Session appearance protocol.
-@objc public protocol SessionAppearance: class, NSObjectProtocol {
+@objc public protocol SessionAppearance: AnyObject, NSObjectProtocol {
 	
 	// MARK: - Common
 	

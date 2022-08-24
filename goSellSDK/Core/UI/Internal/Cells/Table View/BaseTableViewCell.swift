@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import UIKit
 import class UIKit.UITableViewCell.UITableViewCell
 
 /// Base Table View Cell.

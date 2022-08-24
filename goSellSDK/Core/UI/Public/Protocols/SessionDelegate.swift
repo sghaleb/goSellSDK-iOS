@@ -6,7 +6,7 @@
 //
 
 /// Payment delegate.
-@objc public protocol SessionDelegate: class, NSObjectProtocol {
+@objc public protocol SessionDelegate: AnyObject, NSObjectProtocol {
 	
 	/// Notifies the receiver that payment has succeed, passing `charge` and `session` which has initiated payment as arguments.
 	///

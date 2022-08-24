@@ -4,12 +4,13 @@
 //
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
+import UIKit
 import enum PassKit.PKPaymentButtonType
 import enum PassKit.PKPaymentButtonStyle
 import class PassKit.PKPaymentToken
 
 /// Payment data source.
-@objc public protocol SessionDataSource: class, NSObjectProtocol {
+@objc public protocol SessionDataSource: AnyObject, NSObjectProtocol {
 	
 	/// Transaction mode.
 	@objc optional var mode: TransactionMode { get }

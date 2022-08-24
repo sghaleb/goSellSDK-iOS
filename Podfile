@@ -1,4 +1,4 @@
-platform :ios, '12.0'
+platform :ios, '11.0'
 use_frameworks!
 
 source 'https://github.com/CocoaPods/Specs.git'
@@ -7,7 +7,7 @@ def shared_pods
     
     pod 'CardIODynamic'
     pod 'EditableTextInsetsTextFieldV2'
-    pod 'TapAdditionsKitV2X'
+    pod 'TapAdditionsKitV2'
     pod 'TapAlertViewControllerV2'
     pod 'TapApplicationV2'
     pod 'TapBundleLocalization'

@@ -5,7 +5,8 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
-import CoreGraphics
+import UIKit
+//import CoreGraphics
 import struct   TapAdditionsKitV2.TypeAlias
 import class    TapNetworkManagerV2.TapImageLoader
 import enum		UIKit.UIApplication.UIStatusBarStyle

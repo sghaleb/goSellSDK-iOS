@@ -6,6 +6,8 @@
 //
 
 
+import UIKit
+
 /// Decides which UI (light or dark) to follow
 @objc public enum UIModeDisplayEnum: Int, CaseIterable {
     

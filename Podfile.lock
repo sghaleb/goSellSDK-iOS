@@ -7,8 +7,6 @@ PODS:
   - SwiftyRSA/ObjC (1.7.0)
   - TapAdditionsKitV2 (0.0.8):
     - TapSwiftFixesV2
-  - TapAdditionsKitV2X (0.0.11):
-    - TapSwiftFixesV2
   - TapAlertViewControllerV2 (0.0.2):
     - TapAdditionsKitV2
     - TapVisualEffectViewV2
@@ -54,7 +52,7 @@ DEPENDENCIES:
   - CardIODynamic
   - EditableTextInsetsTextFieldV2
   - SwiftyRSA
-  - TapAdditionsKitV2X
+  - TapAdditionsKitV2
   - TapAlertViewControllerV2
   - TapApplicationV2
   - TapBundleLocalization
@@ -76,7 +74,6 @@ SPEC REPOS:
     - EditableTextInsetsTextFieldV2
     - SwiftyRSA
     - TapAdditionsKitV2
-    - TapAdditionsKitV2X
     - TapAlertViewControllerV2
     - TapApplicationV2
     - TapBundleLocalization
@@ -98,7 +95,6 @@ SPEC CHECKSUMS:
   EditableTextInsetsTextFieldV2: 09a945c086dbcef688fe4fbb8302b408c146c391
   SwiftyRSA: 8c6dd1ea7db1b8dc4fb517a202f88bb1354bc2c6
   TapAdditionsKitV2: ba369802e9575c3475ce6d5af228cf60c68edfc9
-  TapAdditionsKitV2X: 49bc581f8351d6b1a10837e4d66bc7a94a8e370f
   TapAlertViewControllerV2: c5d0d90d6c9531c567612e7a9663d9e0fa418b81
   TapApplicationV2: aee3d046c4272778431e1535de6cab34e1269f8c
   TapBundleLocalization: c7d7c14850223b0ef447aca1269d7308f78d54f9
@@ -115,6 +111,6 @@ SPEC CHECKSUMS:
   TapSwiftFixesV2: a8623a7273c6790b9754ec7e272e96fce7d3a800
   TapVisualEffectViewV2: b612ffee4d05004c449d433fe45aba9563c8a508
 
-PODFILE CHECKSUM: 02876f4c5499a2920abc55d00c06e4e927ad6f2b
+PODFILE CHECKSUM: 276da5c57c575f3098b48cba082fd8a79e8f0aa6
 
 COCOAPODS: 1.11.3

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wPo-3k-AO1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wPo-3k-AO1">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -154,7 +154,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CurrencySelectionTableViewCell" rowHeight="65" id="dLV-6v-LDa" customClass="CurrencySelectionTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="65"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dLV-6v-LDa" id="lML-Eh-ens">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
@@ -282,7 +282,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="GroupWithButtonTableViewCell" rowHeight="40" id="mMr-aQ-ijc" customClass="GroupWithButtonTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="109.5" width="414" height="40"/>
+                                        <rect key="frame" x="0.0" y="93" width="414" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mMr-aQ-ijc" id="G61-B2-auk">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
@@ -351,7 +351,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CardsContainerTableViewCell" rowHeight="112" id="XOj-km-jj7" customClass="CardsContainerTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="149.5" width="414" height="112"/>
+                                        <rect key="frame" x="0.0" y="133" width="414" height="112"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XOj-km-jj7" id="r50-Df-cFw">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
@@ -537,7 +537,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="GroupTableViewCell" rowHeight="40" id="9V9-og-wK4" customClass="GroupTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="261.5" width="414" height="40"/>
+                                        <rect key="frame" x="0.0" y="245" width="414" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9V9-og-wK4" id="mY4-lT-FCj">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
@@ -584,7 +584,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="WebPaymentOptionTableViewCell" rowHeight="46" id="t9U-Rf-tdf" customClass="WebPaymentOptionTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="301.5" width="414" height="46"/>
+                                        <rect key="frame" x="0.0" y="285" width="414" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t9U-Rf-tdf" id="MPz-fP-UKt">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="46"/>
@@ -688,7 +688,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="EmptyTableViewCell" rowHeight="19" id="0cC-xr-BG2" customClass="EmptyTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="347.5" width="414" height="19"/>
+                                        <rect key="frame" x="0.0" y="331" width="414" height="19"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0cC-xr-BG2" id="glB-gR-uDc">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="19"/>
@@ -714,7 +714,7 @@
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CardInputTableViewCell" rowHeight="192" id="w9J-dN-6b9" customClass="CardInputTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="366.5" width="414" height="192"/>
+                                        <rect key="frame" x="0.0" y="350" width="414" height="192"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w9J-dN-6b9" id="fFx-GN-gMp">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
@@ -738,7 +738,7 @@
                                                             </constraints>
                                                             <prototypes>
                                                                 <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ImageTableViewCell" rowHeight="44" id="gdM-H0-mIo" customClass="ImageTableViewCell" customModule="goSellSDK">
-                                                                    <rect key="frame" x="0.0" y="44.5" width="32" height="44"/>
+                                                                    <rect key="frame" x="0.0" y="28" width="32" height="44"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gdM-H0-mIo" id="RQG-w0-d6Y">
                                                                         <rect key="frame" x="0.0" y="0.0" width="32" height="44"/>
@@ -1130,7 +1130,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ApplePayTableViewCell" rowHeight="60" id="Dgo-QM-ofB" customClass="ApplePayTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="558.5" width="414" height="60"/>
+                                        <rect key="frame" x="0.0" y="542" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dgo-QM-ofB" id="VgS-HV-0dR">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -1221,7 +1221,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EmptyTableViewCell" rowHeight="30" id="xfw-Zp-0P0" customClass="EmptyTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xfw-Zp-0P0" id="x51-98-iFW">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
@@ -1246,7 +1246,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressDropdownFieldTableViewCell" rowHeight="44" id="10L-Qn-6bD" customClass="AddressDropdownFieldTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="74.5" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="58" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="10L-Qn-6bD" id="ALG-8M-WaT">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -1307,7 +1307,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressTextInputFieldTableViewCell" rowHeight="45" id="mMQ-qU-VyL" customClass="AddressTextInputFieldTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="118.5" width="414" height="45"/>
+                                        <rect key="frame" x="0.0" y="102" width="414" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mMQ-qU-VyL" id="9hk-9w-LJ0">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
@@ -1421,7 +1421,7 @@
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CountryTableViewCell" rowHeight="45" id="AQn-be-OCa" customClass="CountryTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="45"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AQn-be-OCa" id="bGv-3h-7Wl">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
@@ -1542,7 +1542,7 @@
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AmountedCurrencyTableViewCell" id="EXZ-sV-AAY" customClass="AmountedCurrencyTableViewCell" customModule="goSellSDK">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="45"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EXZ-sV-AAY" id="23r-Tw-qVr">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>

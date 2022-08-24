@@ -5,7 +5,8 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
-import CoreGraphics
+import UIKit
+//import CoreGraphics
 import class    EditableTextInsetsTextFieldV2.EditableTextInsetsTextField
 import struct   TapAdditionsKitV2.TypeAlias
 import class    TapEditableViewV2.TapEditableView

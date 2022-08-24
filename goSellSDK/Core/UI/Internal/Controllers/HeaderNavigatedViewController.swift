@@ -20,19 +20,16 @@ internal class HeaderNavigatedViewController: BaseViewController, NavigationCont
     internal var headerHasShadowInitially: Bool { return true }
 	
 	internal var animatesHeaderBackgroundOpacity: Bool { return true }
-    
-    @IBOutlet internal var headerNavigationView: TapNavigationView? {
-        
-        didSet {
-            
-            if let nonnullHeaderView = self.headerNavigationView {
-                
-                self.headerNavigationViewLoaded(nonnullHeaderView)
-            }
-        }
-    }
 	
-    internal var interactivePopTransition: UINavigationControllerPopInteractionController?
+	@IBOutlet internal var headerNavigationView: TapNavigationView? {
+		didSet {
+			if let nonnullHeaderView = self.headerNavigationView {
+				self.headerNavigationViewLoaded(nonnullHeaderView)
+			}
+		}
+	}
+	
+	internal var interactivePopTransition: UINavigationControllerPopInteractionController?
 	
 	internal var contentTopOffset: CGFloat {
 		

@@ -161,18 +161,17 @@ internal class PaymentContentViewController: HeaderNavigatedViewController {
 	@IBOutlet private weak var payButtonTopOffsetConstraint: NSLayoutConstraint?
 	
 	@IBOutlet private weak var payButtonContainerView: UIView?
-    @IBOutlet private weak var payButtonUI: TapButton? {
-        
-        didSet {
-            
-            if let nonnullPayButton = self.payButtonUI {
-				
-				Process.shared.buttonHandlerInterface.setButton(nonnullPayButton)
-            }
-        }
-    }
 	
-    private weak var paymentOptionsViewController: BaseViewController?
+	@IBOutlet private weak var payButtonUI: TapButton? {
+		didSet {
+		   
+			if let nonnullPayButton = self.payButtonUI {
+				Process.shared.buttonHandlerInterface.setButton(nonnullPayButton)
+			}
+		}
+	}
+	
+	private weak var paymentOptionsViewController: BaseViewController?
 }
 
 // MARK: - LoadingViewSupport
